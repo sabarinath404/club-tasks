@@ -12,7 +12,7 @@ function myFunction(form) {
             
            isLogin = true;
             
-            //window.location.replace('suc.html');
+           
             
            
             
@@ -25,9 +25,9 @@ function myFunction(form) {
     
     if(isLogin){
 
-        alert("Login Success");
-        // window.location.href = "suc.html";
-        window.location.replace('success.html');
+       
+         window.location.href = "suc.html";
+         alert("Login Success");
     }
     
 
