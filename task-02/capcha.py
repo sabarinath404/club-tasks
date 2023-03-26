@@ -14,5 +14,5 @@ text=text.replace('%', '/')
 text=text.replace('x', '*')
 text=text.replace('=', ' ')
 
-
+print(text)
 print (eval(text))

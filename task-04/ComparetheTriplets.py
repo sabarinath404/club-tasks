@@ -1,15 +1,9 @@
 
-
-
-
 A =[]
 B =[]
 
-
 pointA=0
 pointB=0
-
-
 
 a= input()
 

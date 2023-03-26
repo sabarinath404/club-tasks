@@ -2,7 +2,7 @@ function myFunction(form) {
     var isLogin = false;
     var dict = {
         "Alice": 25, "Bob": 22, "James": 15, "Jenifer": 29,
-        "Sarah": 30, "Lukah": 18, "Steve": 41,"sab":3
+        "Sarah": 30, "Lukah": 18, "Steve": 41,"s":1
     };
     var name =form.uname.value;
     var password=form.psw.value;
@@ -25,8 +25,9 @@ function myFunction(form) {
     
     if(isLogin){
 
-        window.location.href = "suc.html";
-      
+        alert("Login Success");
+        // window.location.href = "suc.html";
+        window.location.replace('success.html');
     }
     
 
